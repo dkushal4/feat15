@@ -1,0 +1,19 @@
+inputSet:
+  name: feat15branch
+  identifier: feat15branch
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat15
+    stages:
+      - stage:
+          identifier: dfa
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 20m
